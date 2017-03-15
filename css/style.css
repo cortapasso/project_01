@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	background-color: #263238;
+	color: white;
+}
+
+section#banner {
+	background-image: url('../img/city.gif');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 860px;
+
+}
+
+div.wrapper {
+	width: 1140px;
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+section#banner header {
+	padding: 2rem 0;
+}
+
+nav#menu {
+	float: right;
+}
+
+nav#menu a{
+	color: #FAFAFA;
+	font-family: 'Press Start 2P', Helvetica, sans-serif;
+	font-size: 70%;
+	text-decoration: none;
+	margin-left: 2rem;
+}
+
+div.content {
+	padding: 2rem 0;
+	background-image: url('../img/logo.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 164px;
+}
+
+div.content h1 {
+	font-size: 3.5rem;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	color: white;
+	text-align: center;
+	margin: 0;
+}
